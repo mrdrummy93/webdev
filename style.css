@@ -1,0 +1,899 @@
+.wrapper {
+    position: relative;
+    width: 1600px;
+    height: 4105px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.first-screen {
+    background-image: url("assets/bg-image.png");
+    position: absolute;
+    width: 1600px;
+    height: 744px;
+    left: 0px;
+    top: 0px;
+}
+
+.text {
+    color: aliceblue;
+}
+
+#about {
+    position: absolute;
+    width: 37px;
+    height: 21px;
+    left: 502px;
+    top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+#about:hover {
+    border-bottom: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+#syllabus {
+    position: absolute;
+    width: 53px;
+    height: 20px;
+    left: 625px;
+    top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+#projects {
+    position: absolute;
+    width: 52px;
+    height: 20px;
+    left: 923px;
+    top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+#faq {
+    position: absolute;
+    width: 26px;
+    height: 20px;
+    left: 1058px;
+    top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+
+}
+
+#heading {
+    position: absolute;
+    width: 800px;
+    height: 75px;
+    left: 435px;
+    top: 145px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+    letter-spacing: 4.5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    left: 778px;
+    top: 25px;
+    color: #FFFFFF;
+}
+
+#print {
+    position: absolute;
+    width: 504px;
+    height: 50px;
+    left: 548px;
+    top: 309px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#btn-main {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 47px;
+    position: absolute;
+    width: 184px;
+    height: 46px;
+    left: 707px;
+    top: 407px;
+    background: #00AFDB;
+    border: none;
+}
+
+#btn-main:hover {
+    background: #009CC2;
+    cursor: pointer;
+}
+
+#btn-main-text {
+    position: static;
+    width: 90px;
+    height: 16px;
+    left: 755px;
+    top: 420px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 0px;
+}
+
+#mail {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 715px;
+    top: 634px;
+}
+
+#mail:hover {
+    cursor: pointer;
+}
+
+#facebook {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 765px;
+    top: 634px;
+}
+
+#facebook:hover {
+    cursor: pointer;
+}
+
+#insta {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 815px;
+    top: 634px;
+}
+
+#insta:hover {
+    cursor: pointer;
+}
+
+#telegram {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 865px;
+    top: 634px;
+}
+
+#telegram:hover {
+    cursor: pointer;
+}
+
+.rappresent {
+    background-image: url("assets/bg-2.png");
+    position: absolute;
+    width: 1600px;
+    height: 842px;
+    left: 0px;
+    top: 843px;
+}
+
+#content-image {
+    position: absolute;
+    width: 407px;
+    height: 582px;
+    left: 923px;
+    top: 20px;
+}
+
+#rappresent {
+    position: absolute;
+    width: 370px;
+    height: 57px;
+    left: 268px;
+    top: 175px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#lorem {
+    position: absolute;
+    width: 407px;
+    height: 80px;
+    left: 268px;
+    top: 259px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145%;
+}
+
+#btn2 {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 47px;
+    position: absolute;
+    width: 184px;
+    height: 46px;
+    left: 268px;
+    top: 382px;
+    background: #00AFDB;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+
+#btn2:hover {
+    background: #009CC2;
+    cursor: pointer;
+}
+
+#get-started {
+    position: absolute;
+    width: 90px;
+    height: 16px;
+    left: 47px;
+    top: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 0px;
+}
+
+.our-community {
+    background-image: url("assets/bg-3.png");
+    position: absolute;
+    width: 1600px;
+    height: 504px;
+    left: 0px;
+    top: 1586px;
+}
+
+#userpic {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 396px;
+    top: 155px;
+}
+
+#community {
+    position: absolute;
+    width: 165px;
+    height: 20px;
+    left: 337px;
+    top: 204px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+#hacker {
+    position: absolute;
+    width: 298px;
+    height: 80px;
+    left: 268px;
+    top: 251px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145%;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #4E4E4E;
+}
+
+#slider-item1 {
+    position: absolute;
+    width: 407px;
+    height: 244px;
+    left: 705px;
+    top: 120px;
+}
+
+#slider-item2 {
+    position: absolute;
+    width: 407px;
+    height: 244px;
+    left: 1142px;
+    top: 120px;
+}
+
+#slider-item3 {
+    position: absolute;
+    width: 407px;
+    height: 244px;
+    left: 1579px;
+    top: 120px;
+    overflow: hidden;
+}
+
+#left-arrow {
+    position: absolute;
+    width: 9px;
+    height: 14px;
+    left: 1247px;
+    top: 84.34px;
+}
+
+#left-arrow:hover {
+    cursor: pointer;
+}
+
+#number1 {
+    position: absolute;
+    width: 11px;
+    height: 18px;
+    left: 1271px;
+    top: 82px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+#decimal {
+    position: absolute;
+    width: 7px;
+    height: 14px;
+    left: 1285px;
+    top: 84px;
+}
+
+#number5 {
+    position: absolute;
+    width: 11px;
+    height: 18px;
+    left: 1296px;
+    top: 82px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+#right-arrow {
+    position: absolute;
+    width: 9px;
+    height: 14px;
+    left: 1321.34px;
+    top: 84.34px;
+}
+
+#right-arrow:hover {
+    cursor: pointer;
+}
+
+.implement {
+    position: absolute;
+    width: 1600px;
+    height: 842px;
+    left: 0px;
+    top: 2090px;
+
+}
+
+#content-image2 {
+    position: absolute;
+    width: 407px;
+    height: 582px;
+    left: 269px;
+    top: 120px;
+}
+
+#implement {
+    position: absolute;
+    width: 298px;
+    height: 28px;
+    left: 815px;
+    top: 299px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+#these {
+    position: absolute;
+    width: 407px;
+    height: 60px;
+    left: 815px;
+    top: 355px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145%;
+}
+
+#btn3 {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 47px;
+    position: absolute;
+    width: 180px;
+    height: 46px;
+    left: 815px;
+    top: 457px;
+    background: #00AFDB;
+    border: none;
+}
+
+#btn3:hover {
+    background: #009CC2;
+    cursor: pointer;
+}
+
+#learn-more {
+    position: static;
+    width: 86px;
+    height: 16px;
+    left: calc(50% - 88px/2);
+    top: calc(50% - 14px/2);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 0px;
+}
+
+.subscribe {
+    background-image: url("assets/Frame 7.png");
+    position: absolute;
+    width: 1600px;
+    height: 524px;
+    left: 0px;
+    top: 2932px;
+}
+
+#sign-up {
+    position: absolute;
+    width: 385px;
+    height: 28px;
+    left: 610px;
+    top: 176px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#email {
+    position: absolute;
+    width: 337px;
+    height: 43px;
+    left: 596px;
+    top: 258px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    border: none;
+}
+
+#btn-submit {
+    position: absolute;
+    width: 68px;
+    height: 45px;
+    left: 935px;
+    top: 258px;
+    background: #00AFDB;
+    border-radius: 0px;
+    border: none;
+}
+
+#btn-submit:hover {
+    background: #009CC2;
+    cursor: pointer;
+}
+
+#check-icon {
+    position: absolute;
+    width: 16.52px;
+    height: 13.22px;
+    left: 26px;
+    top: 16px;
+}
+
+#check-icon:hover {
+    cursor: pointer;
+}
+
+.download {
+    position: absolute;
+    width: 1600px;
+    height: 464px;
+    left: 0px;
+    top: 3456px;
+    background: #F5F6F7;
+}
+
+#download {
+    position: absolute;
+    width: 255px;
+    height: 28px;
+    left: 675px;
+    top: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#machine {
+    position: absolute;
+    width: 480px;
+    height: 40px;
+    left: 560px;
+    top: 155px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145%;
+    align-items: center;
+    text-align: center;
+    color: #4E4E4E;
+}
+
+#apple-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    position: absolute;
+    width: 186px;
+    height: 46px;
+    left: 599px;
+    top: 238px;
+}
+
+#ios {
+    position: static;
+    width: 127px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+    background: #00AFDB;
+    border-radius: 0px;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 0px;
+}
+
+#ios:hover {
+    background: #009CC2;
+    cursor: pointer;
+}
+
+#app-store {
+    position: absolute;
+    width: 91px;
+    height: 16px;
+    left: 18px;
+    top: 2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#apple-button {
+    position: static;
+    width: 59px;
+    height: 46px;
+    left: 127px;
+    top: 0px;
+    background: #009CC2;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0px 0px;
+    border: none;
+}
+
+#apple-button:hover {
+    cursor: pointer;
+}
+
+#icon-apple {
+    position: absolute;
+    width: 15.97px;
+    height: 18.25px;
+    left: 148px;
+    top: 14px;
+}
+
+#android-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    position: absolute;
+    width: 186px;
+    height: 46px;
+    left: 815px;
+    top: 238px;
+
+}
+
+#android {
+    position: static;
+    width: 127px;
+    height: 46px;
+    left: 238px;
+    top: 815px;
+    background: #00AFDB;
+    border-radius: 0px;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 0px;
+}
+
+#android:hover {
+    background: #009CC2;
+    cursor: pointer;
+}
+
+#play-market {
+    position: absolute;
+    width: 94px;
+    height: 16px;
+    left: 16px;
+    top: 2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#android-button {
+    position: static;
+    width: 59px;
+    height: 46px;
+    left: 127px;
+    top: 0px;
+    background: #009CC2;
+    border-radius: 0px;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0px 0px;
+    border: none;
+}
+
+#android-button:hover {
+    cursor: pointer;
+}
+
+#icon-android {
+    position: absolute;
+    width: 20px;
+    height: 23px;
+    left: 146px;
+    top: 12px;
+}
+
+.footer {
+    position: absolute;
+    width: 1600px;
+    height: 185px;
+    left: 0px;
+    top: 3920px;
+    background: #000000;
+}
+
+#credits {
+    position: absolute;
+    width: 45px;
+    height: 20px;
+    left: 160px;
+    top: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+#credits:hover {
+    cursor: pointer;
+}
+
+#divider1 {
+    position: absolute;
+    width: 8px;
+    height: 0px;
+    left: 220px;
+    top: 83px;
+    border: 1px solid #4E4E4E;
+    transform: rotate(-90deg);
+}
+
+#privacy {
+    position: absolute;
+    width: 46px;
+    height: 20px;
+    left: 245px;
+    top: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+#privacy:hover {
+    cursor: pointer;
+}
+
+#divider2 {
+    position: absolute;
+    width: 8px;
+    height: 0px;
+    left: 306px;
+    top: 83px;
+    border: 1px solid #4E4E4E;
+    transform: rotate(-90deg);
+}
+
+#our-teams {
+    position: absolute;
+    width: 65px;
+    height: 20px;
+    left: 331px;
+    top: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+#our-teams:hover {
+    cursor: pointer;
+}
+
+#logo2 {
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    left: 778px;
+    top: 60px;
+}
+
+#copyright {
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    left: 1270px;
+    top: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #818181;
+}
